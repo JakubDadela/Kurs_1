@@ -1,5 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif ;
+    height:100%;
     box-sizing:border-box;
 
 }
@@ -167,12 +168,248 @@ transition:all ease-in-out 1;
 }
 .Skils .box3{
     width:30%;
+    
     text-align: center;
 
 }
 .Portfolio{
-    margin-top: 10%;
+    margin-top: 5%;
+    
 }
 .Portfolio .tytul{
     text-align: center;
+    width:100%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size:1.5em;
+}
+.Portfolio .tresc{
+    position:relative;
+    width:100%;
+    height: 704px;
+    
+}
+.Portfolio .tresc .p1{
+    background-size: cover;
+    position: absolute;
+    width:70%;
+    height: 352px;
+    background-image: url("porady-grafiki_10_u1.png");
+
+}
+.Portfolio .tresc .p1x{
+    position: absolute;
+    width:70%;
+    height: 352px;
+    background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%);
+    opacity:0.6
+
+}
+.Portfolio .tresc .tekst{
+    position: absolute;
+    color: white;
+    top:2%;
+    left:4%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1.9em;
+    letter-spacing: 0.02em;
+   
+
+}
+.Portfolio .tresc .tekst button{
+background:linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+height: 40%;
+width:15%;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 1.1em;
+line-height: 1.4em;
+text-align: center;
+
+color: #FFFFFF;
+
+border-radius: 15px;
+
+}
+.Portfolio .tresc .p2{
+    position: absolute;
+    left:70%;
+    width:30%;
+    height: 352px;
+    background-image: url("32739439685_8ac3345836_b.png");
+
+}
+.Portfolio .tresc .p3{
+    background-size: cover;
+    position: absolute;
+    left:0%;
+    top:352px;
+    width:40%;
+    height: 352px;
+    background-image: url("work-abroad-unspl.png");
+
+}
+.Portfolio .tresc .p4{
+    background-size: cover;
+    position: absolute;
+    left:40%;
+    top:352px;
+    width:20%;
+    height: 352px;
+    background-image: url("20180619_150208-1.png");
+
+}
+.Portfolio .tresc .p5{
+    background-size: cover;
+    position: absolute;
+    top:352px;
+    left:60%;
+    width:40% ;
+    height: 352px;
+    background-image: url("zm.png");
+
+}
+
+.Pudelko{
+    position: relative;
+    margin:5% 5% 5% 5%;
+    
+}
+.Pudelko .tyt{
+    font-family:Ubuntu;
+    font-size: 1.2em;
+}
+.Pudelko .miejsce{
+    display:flex;
+    width: 1241px;
+    height: 621px;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.Pudelko .miejsce .p1{
+    width:40%;
+    height:100%;
+    background-color: #FF9A3D;
+    position: relative;
+}
+.Pudelko .miejsce .p2{
+    width:60%;
+    height:100%;
+    background-color: #ffffee;
+    position: relative;
+}
+.Pudelko .miejsce .p1 .l1{
+    width:70%;
+    color:white;
+    position: absolute;
+    top:5%;
+    left:5%;
+}
+.Pudelko .miejsce .p1 .l1 p{
+    margin-top:10%;
+    font-size:1.3em;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.04em;
+}
+.Pudelko .miejsce .p1 .l2{
+    color:white;
+    position: absolute;
+    left: 5%;
+    top:70%;
+}
+.Pudelko .miejsce .p2 .tat{
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.7em;
+    line-height: 172.35%;
+    letter-spacing: 0.04em;
+
+}
+.Pudelko .miejsce .p2 .i1{
+    position: absolute;
+    border-radius: 15px;
+    background: #FAFAFF;
+    width:80%;
+    top:35%;
+    left:10%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 2.1em;
+    display: flex;
+    align-items: center;
+
+    color: #A0A0A0;
+
+
+}
+.Pudelko .miejsce .p2 .i2{
+    position: absolute;
+    border-radius: 15px;
+    background: #FAFAFF;
+    width:80%;
+    top:45%;
+    left:10%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 2.1em;
+    display: flex;
+    align-items: center;
+
+    color: #A0A0A0;
+
+
+}
+.Pudelko .miejsce .p2 .i3{
+    position: absolute;
+    border-radius: 15px;
+    background: #FAFAFF;
+    width:80%;
+    top:55%;
+    left:10%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 2.1em;
+    display: flex;
+    align-items: center;
+
+    color: #A0A0A0;
+
+
+}
+.Pudelko .miejsce .p2 .i4{
+    position: absolute;
+    border-radius: 15px;
+    background: #FAFAFF;
+    width:80%;
+    height:30%;
+    top:65%;
+    left:10%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 2.1em;
+    display: flex;
+    align-items: center;
+
+    color: #A0A0A0;
+
+
 }
